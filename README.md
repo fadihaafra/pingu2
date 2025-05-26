@@ -94,7 +94,10 @@ class Person
 
 4b.  https://fadihaafra.github.io/<your-repository-name>/ remove the angular later
 
-5b          <url>file:///D:/my-local-maven-repo</url> 
+5b        maven deploy plugin
+deploy ftp
+copy from dist
+edit urlk   <url>file:///D:/my-local-maven-repo</url> 
 5b        mkdir d:/mylocalrepo_1
 5b        mvn deploy
        
@@ -105,7 +108,9 @@ class Person
         gradle clean build
         java.build.gradle example with main 
 
-        plugins {
+7.....
+        
+         plugins {
     id 'java'
     id 'application'
 }
@@ -146,3 +151,32 @@ jar {
 
 
 
+2a   mvn --version
+     gradle -v
+
+     3  maven repository 
+       gson
+     open <dependencies>
+     4 maven jar plugion 
+     change main classs
+     terminal mvn clean package
+     target demo copy dekstop 
+     cd prompt cd desktop
+     java -jar paste
+
+     4 html index
+     maven plugin to copy resources
+     project.basedir/docs
+     src/main/resoucws
+     terminal mvn install
+     git bash create repo
+     git init
+     git add .
+     gt commit -m "ic"
+     copu url
+     go to git bash pages master docs save
+     chrome follwoing url 
+
+
+
+     
